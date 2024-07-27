@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="upload-page">
       <header className="header">
         <div className="left-side">
           <div className="profile-pic">
@@ -13,13 +13,16 @@ function App() {
           </div>
         </div>
         <div className="search-bar">
-          <div className="search-icon"><img src={"search-icon.svg"} alt="search-icon" /></div>
-          <input className="search-box" type="text" placeholder="Search challenge collection" />
+        <div className="search-icon"><img src={"search-icon.svg"} alt="search-icon" /></div>
+          <input className="search-box" type="text" placeholder="Search Challenge Collection" />
         </div>
         <div className="wallet-button">
-          <button className="connect-wallet">Connect Wallet</button>
+          <button className="Connect-wallet">Connect Wallet</button>
         </div>
       </header>
+
+{/* ----------------------- */}
+
 
       <div className="main-content">
         <div className="profile-section">

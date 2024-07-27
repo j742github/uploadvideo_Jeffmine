@@ -1,69 +1,77 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  height: 100%;
-}
-
-.app {
+.upload-page {
   font-family: Arial, sans-serif;
   padding: 20px;
   background-image: linear-gradient(#ECEDFC, #F3F4FE, #F3E8F4);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 70px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .left-side {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
-.profile-pic, .camera-icon {
+.profile-pic {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-right: 20px;
 }
 
-.search-bar {
-  display: flex;
-  position: relative;
+.camera-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 15px;
   align-items: center;
 }
+
+
+.search-bar{
+  display: flex;
+ /* new */ position: relative;
+   /* new */ align-items: center;
+  /*border-radius: 15px; 
+  width: 500px;
+  height: 30px;
+  border: 1px solid red;
+  background: transparent; */
+}
+
 
 .search-box {
   border-radius: 15px;
   width: 500px;
   height: 30px;
-  border: 1px solid red;
-  background: transparent;
+  border: 1px solid red; 
+  background: transparent; 
   text-align: center;
 }
 
 .search-icon {
   position: absolute;
-  left: 15px;
+  left: 105px;
   display: flex;
-  align-items: center;
-}
+  align-items:center;
+} 
 
-.search-box::placeholder {
+.serach-box::placeholder {
   color: black;
   text-align: center;
 }
 
-.connect-wallet {
+.uploadingtext {
+  margin-top: 50px;
+}
+
+.Connect-wallet {
   background-color: #ff5c5c;
   color: white;
   padding: 10px 20px;
@@ -72,13 +80,16 @@ body, html {
   cursor: pointer;
 }
 
+/* ------------------ */
+
+
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   flex: 1;
-  padding: 0 70px;
+  padding:  70px;
   ; /* moved down a bit too much */
 }
 

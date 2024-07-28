@@ -38,30 +38,22 @@ function App() {
         </div>
 
         <div className="tabs">
-          <button className="tab active">Challenges</button>
-          <button className="tab">Collections</button>
+          <button className="tab">Challenges</button>
+          <button className="tab active">Collections</button>
         </div>
 
         <div className="collections">
-          <div className="collection">
-            <img src={"yoga.jpg"} alt="Extreme Yoga Challenge" />
-            <div className="collection-title">Extreme Yoga Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 788 Views</div>
+          <div className="collection new-collection">
+            <div className="new-collection-icon">+</div>
+            <div className="collection-title">New Collection</div>
           </div>
           <div className="collection">
-            <img src={"laugh.jpg"} alt="Try Not to Laugh Challenge" />
-            <div className="collection-title">Try Not to Laugh Challenge</div>
-            <div className="collection-info">Raven | 2 weeks ago | 22 Views</div>
+            <img src={"diet.jpg"} alt="Diet" />
+            <div className="collection-title">Diet</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"fullbody.jpg"} alt="Full Body Workout" />
-            <div className="collection-title">Best Full Body Workout to Lose Fat</div>
-            <div className="collection-info">Raven | 2 months ago | 160 Views</div>
+            <img src={"arnold-workout.jpg"} alt="Workout" />
+            <div className="collection-title">Workout</div>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ function App() {
 
 {/* ----------------------- */}
 
-
+{/*video containers*/}
       <div className="main-content">
         <div className="profile-section">
           <div className="profile-info">
@@ -40,10 +40,7 @@ function App() {
           </div>
         </div>
 
-        <div className="tabs">
-          <button className="tab active">Challenges</button>
-          <button className="tab">Collections</button>
-        </div>
+
 
         <div className="collections">
           <div className="collection">
@@ -62,13 +59,97 @@ function App() {
             <div className="collection-info">Raven | 2 years ago | 590 Views</div>
           </div>
           <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
             <img src={"fullbody.jpg"} alt="Full Body Workout" />
             <div className="collection-title">Best Full Body Workout to Lose Fat</div>
             <div className="collection-info">Raven | 2 months ago | 160 Views</div>
           </div>
         </div>
       </div>
+{/*end of video containers */}
+
+
+{/* bottom bar */}
+      <footer className="footer">
+        <div><b>Top Witnesses</b></div>
+        <div className="witlist">
+        <div className="witness-item">1 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Raven</div>
+          <div className="witness-item">2 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Tom</div>
+          <div className="witness-item">3 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Jack</div>
+          <div className="witness-item">4 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Jason</div>
+          <div className="witness-item">5 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Naomi</div>
+        </div>
+        <div>
+                    <a href="/" style={{textDecoration: 'none'}} className="view-all">View All</a>
+        </div>
+      </footer>
+{/* end of bottom bar */}
+
+
+{/* bottom bar */}
+<footer className="footer">
+        <div><b>Top Witnesses</b></div>
+        <div className="witlist">
+        <div className="witness-item">1 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Olivia</div>
+          <div className="witness-item">2 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Mia</div>
+          <div className="witness-item">3 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Sophia</div>
+          <div className="witness-item">4 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>David</div>
+          <div className="witness-item">5 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Luca</div>
+        </div>
+        <div>
+                    <a href="/" style={{textDecoration: 'none'}} className="view-all">View All</a>
+        </div>
+      </footer>
+{/* end of bottom bar */}
+
+
+
+
+
+
+
+
     </div>
+   
   );
 }
 

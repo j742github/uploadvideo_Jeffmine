@@ -131,28 +131,18 @@
   cursor: pointer;
 }
 
-.tabs {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 20px;
-}
 
-.tab {
-  background: none;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.tab.active {
-  border-bottom: 2px solid black;
-}
 
 .collections {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* test for wrapping by 4 video container collections */
+.collections > div { /* Assuming each item is a div */
+  flex: 0 0 calc(25% - 20px);; /* Adjust width to fit 3 items per row */
 }
 
 .collection {
@@ -189,3 +179,39 @@
   font-size: 24px;
   color: #ff5c5c;
 }
+
+  /*Bottom bar */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 23px;
+    border-radius: 5px;
+  }
+  
+  .witlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .witness-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .profile-pic1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+  
+  }
+  /*end of bottom bar*/

@@ -54,12 +54,12 @@ function App() {
             <div className="collection-info">Raven | 2 weeks ago | 22 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="Ab Workout Challenge!" />
+            <img src={"abworkout.jpg"} alt="Ab Workout Challenge!" />
             <div className="collection-title">Ab Workout Challenge!</div>
             <div className="collection-info">Jason | 1 month ago | 80 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="Best Full Body Workout to Lose Fat" />
+            <img src={"fullbodyworkout.jpg"} alt="Best Full Body Workout to Lose Fat" />
             <div className="collection-title">Best Full Body Workout to Lose Fat . 20 mins | 28 Day Challenge</div>
             <div className="collection-info">Raven | 2 months ago | 160 Views</div>
           </div>

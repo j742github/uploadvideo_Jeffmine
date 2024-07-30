@@ -1,45 +1,47 @@
 .upload-page {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-image: linear-gradient(#ECEDFC, #F3F4FE, #F3E8F4);
-  height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: linear-gradient(#ECEDFC, #F3F4FE, #F3E8F4);
+    height: 100vh;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 70px;
-  margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .left-side {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .profile-pic {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .camera-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  padding-top: 15px;
-  align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 15px;
+    align-items: center;
 }
 
 
-.search-bar{
-  display: flex;
- /* new */ position: relative;
-   /* new */ align-items: center;
-  /*border-radius: 15px; 
+.search-bar {
+    display: flex;
+    /* new */
+    position: relative;
+    /* new */
+    align-items: center;
+    /*border-radius: 15px; 
   width: 500px;
   height: 30px;
   border: 1px solid red;
@@ -48,144 +50,150 @@
 
 
 .search-box {
-  border-radius: 15px;
-  width: 500px;
-  height: 30px;
-  border: 1px solid red; 
-  background: transparent; 
-  text-align: center;
+    border-radius: 15px;
+    width: 500px;
+    height: 30px;
+    border: 1px solid red;
+    background: transparent;
+    text-align: center;
 }
 
 .search-icon {
-  position: absolute;
-  left: 105px;
-  display: flex;
-  align-items:center;
-} 
+    position: absolute;
+    left: 105px;
+    display: flex;
+    align-items: center;
+}
 
 .serach-box::placeholder {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
 
 .uploadingtext {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .Connect-wallet {
-  background-color: #ff5c5c;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* ------------------ */
 
 
 .main-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1;
-  padding:  70px;
-  ; /* moved down a bit too much */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    padding: 70px;
+    ;
+    /* moved down a bit too much */
 }
 
 .profile-section {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .profile-info {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.profile-pic-large img{
-  width: 63px; 
-  height: 63px;
-  border-radius: 20%;
-  margin-right: 30px; 
+.profile-pic-large img {
+    width: 63px;
+    height: 63px;
+    border-radius: 20%;
+    margin-right: 30px;
 }
 
 .profile-details {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-name {
-  font-size: 20px;
-  margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    
 }
 
 .edit-profile {
-  background-color: #ff5c5c;
-  color: white;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .tabs {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .tab {
-  background: none;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .tab.active {
-  border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .collections {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .collection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 165px; /* Increased by 10% */
-  height: 165px; /* Increased by 10% */
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 165px;
+    /* Increased by 10% */
+    height: 165px;
+    /* Increased by 10% */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .collection img {
-  width: 100%;
-  height: 110px; /* Adjusted to maintain aspect ratio */
-  object-fit: cover;
+    width: 100%;
+    height: 110px;
+    /* Adjusted to maintain aspect ratio */
+    object-fit: cover;
 }
 
 .collection-title {
-  padding: 10px;
-  text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 
 .new-collection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
 }
 
 .new-collection-icon {
-  font-size: 24px;
-  color: #ff5c5c;
+    font-size: 24px;
+    color: #ff5c5c;
 }

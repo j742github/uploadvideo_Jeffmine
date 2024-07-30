@@ -2,7 +2,7 @@
   font-family: Arial, sans-serif;
   padding: 20px;
   background-image: linear-gradient(#ECEDFC, #F3F4FE, #F3E8F4);
-  height: 100vh;
+  height: 100%;
 }
 
 .header {
@@ -141,8 +141,8 @@
 }
 
 /* test for wrapping by 4 video container collections */
-.collections > div { /* Assuming each item is a div */
-  flex: 0 0 calc(25% - 20px);; /* Adjust width to fit 3 items per row */
+.collections > div { 
+  flex: 0 0 calc(25% - 20px);; /* 3 items per row */
 }
 
 .collection {
@@ -159,7 +159,7 @@
 
 .collection img {
   width: 100%;
-  height: 110px; /* Adjusted to maintain aspect ratio */
+  height: 110px;
   object-fit: cover;
 }
 

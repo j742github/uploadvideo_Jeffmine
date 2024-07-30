@@ -45,8 +45,8 @@ function App() {
         <div className="collections">
           <div className="collection">
             <img src={"yoga.jpg"} alt="Extreme Yoga Challenge" />
-            <div className="collection-title">Extreme Yoga Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 788 Views</div>
+            <div className="collection-title">28-Days Intermittent Fasting Weight Loss Challenge</div>
+            <div className="collection-info">Tom | 1 hour ago | 2 Views</div>
           </div>
           <div className="collection">
             <img src={"laugh.jpg"} alt="Try Not to Laugh Challenge" />
@@ -54,54 +54,54 @@ function App() {
             <div className="collection-info">Raven | 2 weeks ago | 22 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+            <img src={"workout.jpg"} alt="Ab Workout Challenge!" />
+            <div className="collection-title">Ab Workout Challenge!</div>
+            <div className="collection-info">Jason | 1 month ago | 80 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
-            <div className="collection-title">5 Hour Workout Challenge</div>
-            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
-          </div>
-          <div className="collection">
-            <img src={"fullbody.jpg"} alt="Full Body Workout" />
-            <div className="collection-title">Best Full Body Workout to Lose Fat</div>
+            <img src={"workout.jpg"} alt="Best Full Body Workout to Lose Fat" />
+            <div className="collection-title">Best Full Body Workout to Lose Fat . 20 mins | 28 Day Challenge</div>
             <div className="collection-info">Raven | 2 months ago | 160 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="Try not to cry laughing" />
+            <div className="collection-title">Try not to cry laughing</div>
+            <div className="collection-info">Justin | 2 months ago | 223 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="Raising Cane's Full Menu Challenge" />
+            <div className="collection-title">Raising Cane's Full Menu Challenge!</div>
+            <div className="collection-info">Raven | 3 months ago | 550 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="Speed Drawing Challenge" />
+            <div className="collection-title">Speed Drawing Challenge!</div>
+            <div className="collection-info">Naomi | 2 months ago | 129 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="NO SUGAR OR CARBS FOR A WEEK" />
+            <div className="collection-title">NO SUGAR OR CARBS FOR A WEEK?</div>
+            <div className="collection-info">Raven | 4 months ago | 240 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="World's Spiciest Golgappa Challenge" />
+            <div className="collection-title">World's Spiciest Golgappa Challenge</div>
+            <div className="collection-info">David | 1 year ago | 992 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="Complete Solution For Learn to Earn Cloud Data Challenge" />
+            <div className="collection-title">Complete Solution For Learn to Earn Cloud Data Challenge</div>
+            <div className="collection-info">Naomi | 1 year ago | 787 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"workout.jpg"} alt="5 Hour Workout Challenge" />
+            <div className="collection-title">5 Hour Workout Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 590 Views</div>
+          </div>
+          <div className="collection">
+            <img src={"fullbody.jpg"} alt="Extreme Yoga Challenge" />
+            <div className="collection-title">Extreme Yoga Challenge</div>
+            <div className="collection-info">Raven | 2 years ago | 768 Views</div>
           </div>
         </div>
       </div>

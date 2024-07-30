@@ -44,7 +44,7 @@ function App() {
 
         <div className="collections">
           <div className="collection">
-            <img src={"yoga.jpg"} alt="Extreme Yoga Challenge" />
+            <img src={"fullbody.jpg"} alt="Weight Loss Challenge" />
             <div className="collection-title">28-Days Intermittent Fasting Weight Loss Challenge</div>
             <div className="collection-info">Tom | 1 hour ago | 2 Views</div>
           </div>
@@ -64,32 +64,32 @@ function App() {
             <div className="collection-info">Raven | 2 months ago | 160 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="Try not to cry laughing" />
+            <img src={"trynottolaugh.jpg"} alt="Try not to cry laughing" />
             <div className="collection-title">Try not to cry laughing</div>
             <div className="collection-info">Justin | 2 months ago | 223 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="Raising Cane's Full Menu Challenge" />
+            <img src={"raisingcanes.jpg"} alt="Raising Cane's Full Menu Challenge" />
             <div className="collection-title">Raising Cane's Full Menu Challenge!</div>
             <div className="collection-info">Raven | 3 months ago | 550 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="Speed Drawing Challenge" />
+            <img src={"speeddrawing.jpg"} alt="Speed Drawing Challenge" />
             <div className="collection-title">Speed Drawing Challenge!</div>
             <div className="collection-info">Naomi | 2 months ago | 129 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="NO SUGAR OR CARBS FOR A WEEK" />
+            <img src={"nocarbs.jpg"} alt="NO SUGAR OR CARBS FOR A WEEK" />
             <div className="collection-title">NO SUGAR OR CARBS FOR A WEEK?</div>
             <div className="collection-info">Raven | 4 months ago | 240 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="World's Spiciest Golgappa Challenge" />
+            <img src={"spicygolgappa.jpg"} alt="World's Spiciest Golgappa Challenge" />
             <div className="collection-title">World's Spiciest Golgappa Challenge</div>
             <div className="collection-info">David | 1 year ago | 992 Views</div>
           </div>
           <div className="collection">
-            <img src={"workout.jpg"} alt="Complete Solution For Learn to Earn Cloud Data Challenge" />
+            <img src={"clouddatachallenge.jpg"} alt="Complete Solution For Learn to Earn Cloud Data Challenge" />
             <div className="collection-title">Complete Solution For Learn to Earn Cloud Data Challenge</div>
             <div className="collection-info">Naomi | 1 year ago | 787 Views</div>
           </div>
@@ -99,7 +99,7 @@ function App() {
             <div className="collection-info">Raven | 2 years ago | 590 Views</div>
           </div>
           <div className="collection">
-            <img src={"fullbody.jpg"} alt="Extreme Yoga Challenge" />
+            <img src={"yoga.jpg"} alt="Extreme Yoga Challenge" />
             <div className="collection-title">Extreme Yoga Challenge</div>
             <div className="collection-info">Raven | 2 years ago | 768 Views</div>
           </div>

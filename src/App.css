@@ -1,68 +1,81 @@
-
 .upload-page {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-image: linear-gradient(#ECEDFC, #F3F4FE, #F3E8F4);
     height: 100%;
-  }
-  
-  .header {
+}
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
-  }
-  
-  .left-side {
+}
+
+.left-side {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  }
-  
-  .profile-pic {
+}
+
+.profile-pic {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 20px;
-  }
-  
-  .camera-icon {
+}
+
+
+.camera-icon {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     padding-top: 15px;
     align-items: center;
-  }
-  
-  .search-bar {
+}
+
+
+.search-bar {
     display: flex;
+    /* new */
     position: relative;
+    /* new */
     align-items: center;
-  }
-  
-  .search-box {
+    /*border-radius: 15px; 
+  width: 500px;
+  height: 30px;
+  border: 1px solid red;
+  background: transparent; */
+}
+
+
+.search-box {
     border-radius: 15px;
     width: 500px;
     height: 30px;
     border: 1px solid red;
     background: transparent;
     text-align: center;
-  }
-  
-  .search-icon {
+}
+
+.search-icon {
     position: absolute;
     left: 105px;
     display: flex;
     align-items: center;
-  }
-  
-  .serach-box::placeholder {
+}
+
+.serach-box::placeholder {
     color: black;
     text-align: center;
-  }
-  
-  .Connect-wallet {
+}
+
+.uploadingtext {
+    margin-top: 50px;
+}
+
+.Connect-wallet {
     background-color: #ff5c5c;
     color: white;
     padding: 10px 20px;
@@ -71,61 +84,103 @@
     cursor: pointer;
 }
 
+ .video-player-container {
+     display: flex;
+     justify-content: flex-start;
+     margin-top : 100px;
+     margin-left: 100px;
+     margin-right : 40px;
+ }
 
-  .video-player-container {
+ .video-player img {
+     height : 500px;
+     width : 800px;
+ }
+
+ .video-details {
+    display: flex;
+    flex-direction : column;
+    
+    margin-left : 40px;
+ }
+
+ .video-title {
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+ .video-description {
+     margin-top: 10px;
+ }
+
+ .uploaded-by {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+ }
+
+ .collection-info {
+     margin-top: 5px;
+ }
+
+ .actions {
+     display: flex;
+     
+     justify-content: space-between;
+     margin-top: 20px;
+ }
+.like-button{
+    display:flex;
+    align-items: center;
+}
+ .like-button img{
+    height : 40px;
+ }
+ .approve-button{
     display: flex;
     align-items: center;
-  }
-  
-  .video-player {
-    width: 60%;
-  }
-  
-  .video-details {
-    width: 40%;
-  }
-  
-  .video-title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .video-description {
-    margin-top: 10px;
-  }
-  
-  .uploaded-by {
-    margin-top: 10px;
-  }
-  
-  .collection-info {
-    margin-top: 5px;
-  }
-  
-  .actions {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .like-button,
-  .approve-button {
-    background-color: #ff5c5c;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .comment-section {
-    margin-top: 20px;
-  }
-  
-  .comment {
-    margin-bottom: 10px;
-  }
-  
-  .footer {
-    /* Add styles for the bottom bar */
-  }
+ }
+ .approve-button img{
+    height : 40px;
+ }
+
+ .uploaded-by img {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     margin-right : 5px;
+ }
+
+ .comment-section {
+     margin-top: 20px;
+     margin-left: 100px;
+ }
+
+ .commentbox {
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+ }
+ 
+ .commentbox img{
+    margin-right: 10px;
+ }
+ .userandtime{
+    display:flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+ }
+ .userandcomment{
+    display :flex;
+    flex-direction : column;
+    
+ }
+ .commentsearch-box {
+     border-radius: 15px;
+     width: 500px;
+     height: 30px;
+     border:none;
+     background: transparent;
+     text-align: left;
+ }

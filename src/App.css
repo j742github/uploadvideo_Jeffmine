@@ -1,80 +1,68 @@
+
 .upload-page {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-image: linear-gradient(#ECEDFC, #F3F4FE, #F3E8F4);
     height: 100%;
-}
-
-.header {
+  }
+  
+  .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
-}
-
-.left-side {
+  }
+  
+  .left-side {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.profile-pic {
+  }
+  
+  .profile-pic {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 20px;
-}
-
-.camera-icon {
+  }
+  
+  .camera-icon {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     padding-top: 15px;
     align-items: center;
-}
-
-
-.search-bar {
+  }
+  
+  .search-bar {
     display: flex;
-    /* new */
     position: relative;
-    /* new */
     align-items: center;
-    /*border-radius: 15px; 
-  width: 500px;
-  height: 30px;
-  border: 1px solid red;
-  background: transparent; */
-}
-
-
-.search-box {
+  }
+  
+  .search-box {
     border-radius: 15px;
     width: 500px;
     height: 30px;
     border: 1px solid red;
     background: transparent;
     text-align: center;
-}
-
-.search-icon {
+  }
+  
+  .search-icon {
     position: absolute;
     left: 105px;
     display: flex;
     align-items: center;
-}
-
-.serach-box::placeholder {
+  }
+  
+  .serach-box::placeholder {
     color: black;
     text-align: center;
-}
-
-.uploadingtext {
-    margin-top: 50px;
-}
-
-.Connect-wallet {
+  }
+  
+  .Connect-wallet {
     background-color: #ff5c5c;
     color: white;
     padding: 10px 20px;
@@ -83,149 +71,61 @@
     cursor: pointer;
 }
 
-/* ------------------ */
 
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex: 1;
-    padding: 70px;
-    ;
-    /* moved down a bit too much */
-}
-
-.profile-section {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-}
-
-.profile-info {
+  .video-player-container {
     display: flex;
     align-items: center;
-}
-
-.profile-pic-large img {
-    width: 63px;
-    height: 63px;
-    border-radius: 20%;
-    margin-right: 30px;
-}
-
-.profile-details {
+  }
+  
+  .video-player {
+    width: 60%;
+  }
+  
+  .video-details {
+    width: 40%;
+  }
+  
+  .video-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .video-description {
+    margin-top: 10px;
+  }
+  
+  .uploaded-by {
+    margin-top: 10px;
+  }
+  
+  .collection-info {
+    margin-top: 5px;
+  }
+  
+  .actions {
     display: flex;
-    flex-direction: row;
-}
-
-.profile-name {
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-right: 80px;
-
-}
-
-.edit-profile {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .like-button,
+  .approve-button {
     background-color: #ff5c5c;
     color: white;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-
-
-.collections {
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-/* test for wrapping by 4 video container collections */
-.collections>div {
-    flex: 0 0 calc(25% - 20px);
-    ;
-    /* 3 items per row */
-}
-
-.collection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 165px;
-    /* Increased by 10% */
-    height: 165px;
-    /* Increased by 10% */
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.collection img {
-    width: 100%;
-    height: 110px;
-    object-fit: cover;
-}
-
-.collection-title {
-    font-weight: bold;
-    padding: 10px;
-    text-align: center;
-}
-
-.collection-info{
-    font-size:smaller;
-}
-.new-collection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-}
-
-.new-collection-icon {
-    font-size: 24px;
-    color: #ff5c5c;
-}
-
-/*Bottom bar */
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    padding: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 23px;
-    border-radius: 5px;
-}
-
-.witlist {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.witness-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 15px;
-}
-
-.profile-pic1 {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 5px;
-    margin-left: 5px;
-
-}
-
-/*end of bottom bar*/
+  }
+  
+  .comment-section {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    /* Add styles for the bottom bar */
+  }

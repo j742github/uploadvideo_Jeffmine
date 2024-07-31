@@ -14,7 +14,7 @@ function App() {
                     </div>
                 </div>
                 <div className="search-bar">
-                    <div className="search-icon"><img src={"searchicon.png"} alt="search-icon" /></div>
+                    <div className="search-icon"><img src={"search-icon.svg"} alt="search-icon" /></div>
                     <input className="search-box" type="text" placeholder="Search Challenge Collection" />
                 </div>
                 <div className="wallet-button">
@@ -23,7 +23,7 @@ function App() {
             </header>
             <div className="video-player-container">
                 <div className="video-player">
-                    <img src={"background.jpg"} alt="Video" />
+                    <img src={"background-videor.jpg"} alt="Video" />
                 </div>
                 <div className="video-details">
                     <div className="collection-info">Collection : <b>Diet</b> </div>
